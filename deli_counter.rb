@@ -2,7 +2,7 @@ def line(katz)
   if katz.empty?
     puts "The line is currently empty."
   else
-    buyers = "The line is currently:"
+    buyers = "The line is currently: "
     katz.each_with_index do |customers, index|
       buyers << " #{index+1}. #{customers}"
     end
